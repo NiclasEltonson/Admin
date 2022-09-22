@@ -111,7 +111,7 @@
 
         $('#dataTbl td').remove();
 
-        const dbRef = ref(db, 'ICA-MaxiNew');
+        const dbRef = ref(db, 'ICA-MaxiNew/');
 
         onValue(dbRef, (snapshot) => {
         snapshot.forEach((childSnapshot) => {
